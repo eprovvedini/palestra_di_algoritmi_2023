@@ -44,10 +44,8 @@ Avete presente come usate cin >> var per prendere in input da tastiera una varia
 D'ora in poi, se al posto di cin userete "in", farete la stessa cosa ma leggendo dal file di input.
 
 
-Esempio: 
-
-Avete un file che contiene: 
-
+Esempio:  
+Avete un file che contiene:  
 1 2 3 
 
 Se nel vostro programma scrivete: 
