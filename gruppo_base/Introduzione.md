@@ -45,11 +45,19 @@ D'ora in poi, se al posto di cin userete "in", farete la stessa cosa ma leggendo
 
 
 Esempio: 
+
 Avete un file che contiene: 
+
 1 2 3 
+
 Se nel vostro programma scrivete: 
+
 in >> a >> b >> c 
+
 Avrete un 1 nella variabile a, un 2 nella variabile b e un 3 nella variabile c. 
 
+
 Allo stesso modo ofstream out("output.txt"); specifica che quando userete out al posto di cout starete scrivendo sul file output.txt. 
+
 Se il file non esiste, il programma lo creerà in automatico. 
+
