@@ -1,4 +1,4 @@
-# Palestra di Algoritmi 2022/2023
+# Palestra di Algoritmi 2023/2024
 
 ## Link utili
 - Allenamenti
