@@ -28,34 +28,24 @@ int main(){
 }
 ```
 
-Questa è più o meno la base per tutto il codice che scriverete per gli esercizi delle olimpiadi. Analizziamo un attimo un paio di cose.
+Questa è più o meno la base per tutto il codice che scriverete per gli esercizi delle olimpiadi. Analizziamo un attimo un paio di cose.  
 
-La prima riga include una libreria che comprende tutte le librerie del c++ (non funzionerà se non avete abilitato c++11). Questo vi renderà le cose molto più veloci rispetto a cercare ogni volta quali librerie da includere (non usatelo in classe, non è un buon modo di programmare normalmente).
+La prima riga include una libreria che comprende tutte le librerie del c++ (non funzionerà se non avete abilitato c++11). Questo vi renderà le cose molto più veloci rispetto a cercare ogni volta quali librerie da includere (non usatelo in classe, non è un buon modo di programmare normalmente).  
+La seconda riga forse saprete già cos'è, ma vi basti sapere che serve metterla, il perchè non è importante.  
 
-La seconda riga forse saprete già cos'è, ma vi basti sapere che serve metterla, il perchè non è importante.
-
-
-Passiamo poi al corpo del main. Escludendo il return 0, le altre istruzioni servono per la lettura e scrittura da/a file, richiesta per i problemi delle olimpiadi.
-
-ifstream in("input.txt"); indica che l'input verrà letto dal file chiamato input.txt. Questo file si deve trovare nella stessa cartella dove avete salvato il programma, oppure dovete specificare l'intero percorso.
-
-Avete presente come usate cin >> var per prendere in input da tastiera una variabile var?
-
-D'ora in poi, se al posto di cin userete "in", farete la stessa cosa ma leggendo dal file di input.
-
+Passiamo poi al corpo del main. Escludendo il return 0, le altre istruzioni servono per la lettura e scrittura da/a file, richiesta per i problemi delle olimpiadi.  
+ifstream in("input.txt"); indica che l'input verrà letto dal file chiamato input.txt. Questo file si deve trovare nella stessa cartella dove avete salvato il programma, oppure dovete specificare l'intero percorso.  
+Avete presente come usate cin >> var per prendere in input da tastiera una variabile var?  
+D'ora in poi, se al posto di cin userete "in", farete la stessa cosa ma leggendo dal file di input.  
 
 Esempio:  
 Avete un file che contiene:  
-1 2 3 
+1 2 3  
+Se nel vostro programma scrivete:  
+in >> a >> b >> c  
+Avrete un 1 nella variabile a, un 2 nella variabile b e un 3 nella variabile c.  
 
-Se nel vostro programma scrivete: 
-
-in >> a >> b >> c 
-
-Avrete un 1 nella variabile a, un 2 nella variabile b e un 3 nella variabile c. 
-
-
-Allo stesso modo ofstream out("output.txt"); specifica che quando userete out al posto di cout starete scrivendo sul file output.txt. 
-
+  
+Allo stesso modo ofstream out("output.txt"); specifica che quando userete out al posto di cout starete scrivendo sul file output.txt.  
 Se il file non esiste, il programma lo creerà in automatico. 
 
