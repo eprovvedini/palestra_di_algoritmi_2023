@@ -1,0 +1,29 @@
+Dichiarazione:
+int matrix[RIGHE][COLONNE]
+
+Accedere a un elemento:
+int x = matrix[i][j]
+Dove 0<=i<RIGHE e 0<=j<COLONNE
+
+Inizializzazione:
+int matrix[3][3] = {{1,2,3}, {4,5,6}, {7,8,9}}
+NB: se inizializziamo in questo modo, si può omettere il numero di righe.
+Es: int matrix[][3] = {{1,2,3}, {4,5,6}, {7,8,9}}
+Inizializzazione da tastiera (o da file):
+int matrix[RIGHE][COLONNE];
+for(int i=0;i<RIGHE;i++){
+	for(int j=0;j<COLONNE;j++){
+		cin >> matrix[i][j];
+}
+}
+NB: similmente, con questo doppio ciclo, possiamo stampare tutta la matrice, fare operazioni su tutti gli elementi, eccetera…
+
+ESERCIZIO
+Data in input una matrice N*M, determinare qual è la riga con la somma maggiore.
+Esempio:
+4 3
+13 34 21
+17 22 33
+14 55 56
+23 24 25
+In questo caso dobbiamo dare in output 2 (ricordiamo che gli indici partono da 0!)
