@@ -14,7 +14,7 @@ int matrix[RIGHE][COLONNE];
 for(int i=0;i<RIGHE;i++){
 	for(int j=0;j<COLONNE;j++){
 		cin >> matrix[i][j];
-}
+	}
 }
 NB: similmente, con questo doppio ciclo, possiamo stampare tutta la matrice, fare operazioni su tutti gli elementi, eccetera…
 
